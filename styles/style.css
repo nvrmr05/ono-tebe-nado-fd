@@ -254,7 +254,7 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 70px;
-  padding: 150px 28px 100px 70px;
+  padding: 154px 28px 100px 70px;
 }
 
 .about-logo {
@@ -279,7 +279,7 @@ body {
 }
 
 .about-content h2 {
-  margin: 0 0 98px;
+  margin: 0 0 101px;
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
