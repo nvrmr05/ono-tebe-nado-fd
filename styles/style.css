@@ -3,7 +3,8 @@
 }
 
 body {
-  margin: 0;
+  max-width: 1280px;
+  margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
 
@@ -141,18 +142,15 @@ body {
   text-transform: uppercase;
   word-spacing: 20px;
   letter-spacing: 1px;
-  white-space: nowrap;
 }
 
 .bet-button {
-  flex-shrink: 0;
   padding: 12px 30px;
   border: 1px solid white;
   color: white;
   font-size: 22px;
   text-decoration: none;
   text-transform: uppercase;
-  white-space: nowrap;
 }
 
 .lots {
@@ -190,7 +188,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 595px;
+  min-height: 595px;
   padding: 50px 40px;
   overflow: hidden;
   background-color: black;
@@ -209,7 +207,6 @@ body {
 
 .lot-card_painting {
   background-image: url("../images/card-lot-03.jpg");
-  background-position: 30% center;
 }
 
 .lot-card .overlay {
